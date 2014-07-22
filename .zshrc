@@ -79,3 +79,12 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#### ALIASES ####
+alias l='ls -lahpFh'
+alias ls='ls -pFh'
+
+alias k='tree -C'
+
+## Add color to my shell ##
+export CLICOLOR=1
+export LSCOLORS='GxFxCxDxBxegedabagaced'
