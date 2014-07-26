@@ -1,3 +1,5 @@
+echo "Loading .zshrc..."
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.config-zsh/.oh-my-zsh
 
@@ -39,7 +41,7 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=~/.config-zsh/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -47,6 +49,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+echo "Applying the oh-my-zsh script..."
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -79,12 +82,3 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#### ALIASES ####
-alias l='ls -lahpFh'
-alias ls='ls -pFh'
-
-alias k='tree -C'
-
-## Add color to my shell ##
-export CLICOLOR=1
-export LSCOLORS='GxFxCxDxBxegedabagaced'
