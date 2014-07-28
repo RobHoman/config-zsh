@@ -11,3 +11,6 @@ ln -s ~/.config-zsh/.zshrc ~/.zshrc
 
 # 4. Set zsh as defualt shell
 chsh -s /bin/zsh
+
+# Remind the user to restart their shell
+echo "\x1B[33mRestart your shell and enjoy!"
