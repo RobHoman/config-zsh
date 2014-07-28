@@ -10,5 +10,5 @@ if [ -f ~/.zshrc-bkp ]; then
 fi
 
 # 4. Warn that zsh is still the default shell
-echo "Note: zsh is still the default shell on this system.\n"
-echo "You may want to set it to something else using 'chsh -s'"
+echo "\n\x1B[33mNOTE: zsh is still the default shell on this system.\nYou may want to set it to something else using this:"
+echo "\t\x1B[34mchsh -s [/path/to/shell]\n"
