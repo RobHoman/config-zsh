@@ -7,10 +7,10 @@ config-zsh
 
 3. Update font to 15 pt Inconsolata
 
-4. Clone oh-my-zshell: `git clone https://github.com/robbyrussell/oh-my-zsh.git .oh-my-zsh`
+4. Clone this repository into the ~/.config-zsh directory.
 
-5. Copy the .zshrc template: `cp ~/.config-zsh/.oh-my-zsh/templates/zshrc.zsh-template ~/.config-zsh/.zshrc`
+5. Run `sh install.sh` to install this zsh configuration.
 
-6. Symlink ~/.zshrc to ~/.config-zsh/.zshrc: `ln -s ~/.config-zsh/.zshrc .zshrc`
+6. Run `sh uninstall.sh` to uninstall this zsh configuration.
 
-7. Set zsh as defualt shell: `chsh -s /bin/zsh`
+See the comments inside `install.sh` and `uninstall.sh` for an explanation of what is installed.
