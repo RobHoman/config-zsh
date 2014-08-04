@@ -1,11 +1,11 @@
 config-zsh
 ==========
 
-1. Install iTerm2
+1. Install iTerm2: http://iterm2.com/
 
-2. Install the solarized color theme: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+2. Install the solarized color theme: http://ethanschoonover.com/solarized 
 
-3. Update font to 15 pt Inconsolata
+3. Update font to 15 pt Inconsolata: http://levien.com/type/myfonts/inconsolata.html
 
 4. Clone this repository into the ~/.config-zsh directory.
 
