@@ -1,0 +1,3 @@
+[submodule "custom/plugins/theos"]
+	path = custom/plugins/theos
+	url = https://github.com/RobHoman/config-zsh-plugin-theos
