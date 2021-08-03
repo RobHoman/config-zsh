@@ -1,4 +1,6 @@
 # 1. Install oh-my-zsh by cloning it.
+# N.B. Latest tested SHA: 9d43dc88
+#      Currently testing: e735d3ca
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.config-zsh/.oh-my-zsh
 
 # 2. Save the original .zshrc as .zshrc-bkp if it exists
