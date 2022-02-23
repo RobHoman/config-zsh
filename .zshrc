@@ -47,7 +47,7 @@ ZSH_CUSTOM=~/.config-zsh/custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew osx aws golang tmux)
+plugins=(git brew macos aws golang tmux)
 
 echo "Applying the oh-my-zsh script..."
 source $ZSH/oh-my-zsh.sh
